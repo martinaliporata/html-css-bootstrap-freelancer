@@ -9,179 +9,152 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <header class="d-flex justify-content-between align-items-center">
-                        <h1 class="col-4 col-md-4">
+        <section class="my_navigator text-white">
+            <nav class="navbar navbar-expand-md my_bg_darkblue">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">start bootstrap</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#"> contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>            
+        </section>
+        <section class="my_jumbotron my_bg_lightblue text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <h1>
                             Titolo
                         </h1>
-                        <nav class="col-1 col-md-4">
-                            Ciao
-                        </nav>
-                    </header>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime quo, eveniet iste enim rerum laudantium incidunt illo exercitationem dolores rem voluptates numquam ratione quae magni, harum nam culpa provident consectetur.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
     <main>
-        <div class="container my_start">
-            <div class="row justify-content-center">
-                <div class="col-6 col-md-2">
-                    <img src="imgs/avatar.svg" alt="">
+        <section class="my_portfolio">
+            <h2 class="text-center text-uppercase">
+                portfolio
+            </h2>
+            <div class="container">
+                <div class="row justify-content-center d-flex">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="imgs/cabin.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="imgs/cake.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="imgs/circus.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="imgs/game.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="imgs/safe.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="imgs/submarine.png" alt="">
+                    </div>
+                    </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-8 col-md-6">
-                    <h1>
-                        start bootstrap
-                    </h1>
+        </section>  
+        <section class="my_about my_bg_lightblue text-white">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2 class="text-uppercase text-center">
+                            About
+                        </h2>
+                    </div>
+                    <div class="d-md-flex">
+                        <p class="col-12 col-md-6">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officiis fugiat harum ut totam vel numquam quod itaque repellendus distinctio minima, recusandae debitis pariatur nobis ea alias ipsa porro minus.
+                        </p>
+                        <p class="col-12 col-md-6">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officiis fugiat harum ut totam vel numquam quod itaque repellendus distinctio minima, recusandae debitis pariatur nobis ea alias ipsa porro minus.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-6">
-                    <p>Ciao con stella</p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-10 col-md-6 col-lg-7">
-                    <p>graphic artist - web designer - illustrator</p>
-                </div>
-            </div>
-        </div>
-        <div class="container my_portfolio">
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-6 col-md-3">
-                    <h2>
-                        portfolio
-                    </h2>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-6">
-                    <p>Ciao con stella 2</p>
-                </div>
-            </div>
-            <div class="row d-md-flex justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="imgs/cabin.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="imgs/cake.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="imgs/circus.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="imgs/game.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="imgs/safe.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="imgs/submarine.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-2 col.md-2">
-                    <h1>
-                        About
-                    </h1>
-                    <p>
-                        ciao con stella
-                    </p>
-                </div>
-            </div>
-            <div class="row d-md-flex justify-content-center align-items-center text-left">
-                <div class="col-8 col-md-4 col-lg-5">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugit neque enim perspiciatis natus porro velit asperiores maxime distinctio voluptate perferendis debitis vitae harum deserunt delectus sequi, reiciendis animi voluptates!
-                    </p>
-                </div>
-                <div class="col-8 col-md-4 col-lg-5">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugit neque enim perspiciatis natus porro velit asperiores maxime distinctio voluptate perferendis debitis vitae harum deserunt delectus sequi, reiciendis animi voluptates!
-                    </p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-2 ">
-                    <button>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="text-white">
                         Download
                     </button>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-4 col-md-4">
-                    <h1>
-                        Contact me
-                    </h1>
-                    <p>
-                        ciao con stella
-                    </p>
+        </section>  
+        <section class="my_contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-uppercase text-center">
+                            contact me
+                        </h2>
+                    </div>
+                    <div class="col-12">
+                        <form action="">
+
+                        </form>
+                    </div>
+                    <div class="col-1">
+                        <button class="text-white">
+                            Send
+                        </button>
+                    </div>
+                </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center align-items-center text-left">
-                <div class="col-6 col-md-6 col-lg-10">
-                    <p>
-                        Ciao
-                    </p>
-                    <p>
-                        Ciao
-                    </p>
-                    <p>
-                        Ciao
-                    </p>
-                    <p>
-                        Ciao
-                    </p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center text-center">
-                <div class="col-1">
-                    <button>
-                        Send
-                    </button>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="row d-md-flex">
-                <div class="row d-md-flex flex-column justify-content-center align-items-center text-center">
-                    <div class="col-2 col-md-3 col-lg-3">
-                        <p>Location</p>
+        <section class="my_info my_bg_blue text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="text-uppercase">location</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum et quos minima quo quam quae consequatur, labore soluta, sapiente magnam, eum saepe odit dolores similique! Distinctio quae dicta omnis sunt.</p>
                     </div>
-                    <div class="col-8 col-md-4 col-lg-3">
-                        <p>Indirizzo</p>
+                    <div class="col-12 col-md-4">
+                        <p class="text-uppercase">around the web</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum et quos minima quo quam quae consequatur, labore soluta, sapiente magnam, eum saepe odit dolores similique! Distinctio quae dicta omnis sunt.</p>
                     </div>
-                </div>
-                <div class="row d-md-flex flex-column justify-content-center align-items-center text-center">
-                    <div class="col-4 col-md-4 col-lg-3">
-                        <p>Around the web</p>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3">
-                        Logos
-                    </div>
-                </div>
-                <div class="row d-md-flex flex-column justify-content-center align-items-center text-center">
-                    <div class="col-4 col-md-4 col-lg-3">
-                        <p>About freelancer</p>
-                    </div>
-                    <div class="col-10 col-md-4 col-lg-3">
-                        <p>Last paragraph</p>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center text-center">
-                    <div class="col-6 col-md-2">
-                        <p>Copyright</p>
+                    <div class="col-12 col-md-4">
+                        <p class="text-uppercase">about freelancer</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum et quos minima quo quam quae consequatur, labore soluta, sapiente magnam, eum saepe odit dolores similique! Distinctio quae dicta omnis sunt.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="my_copyright my_bg_darkblue text-white">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <p>
+                            Copyright Your Website 219
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
