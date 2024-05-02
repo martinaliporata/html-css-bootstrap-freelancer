@@ -10,4 +10,38 @@
     background-color: #2b3d4f;
 }
 
+.my_star_blue {
+    color: #2b3d4f;
+}
 
+.avatar {
+    width: 190px;
+}
+
+div.my_line::before,
+div.my_line::after {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    border-radius: .5rem;
+    width: 10%;
+    background-color: white;
+    vertical-align: middle;
+}
+
+div.my_line_blue::before,
+div.my_line_blue::after {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    border-radius: .5rem;
+    width: 10%;
+    background-color: #2b3d4f;
+    vertical-align: middle;
+}
+
+.my_footer_icons {
+    height: 28px;
+    width: 28px;
+    margin-right: 0.5rem;
+}
